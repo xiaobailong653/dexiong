@@ -452,8 +452,13 @@ a:active{
 	font-family: 'Raleway', sans-serif;
 }
 
+.blete-section-header-contact{
+	float: left;
+}
 
-
+.blete-section-header-map{
+	float: right;
+}
 /* ----- Call To Action ------ */
 .blete-cta-1{
 	background-color: #28292e;
