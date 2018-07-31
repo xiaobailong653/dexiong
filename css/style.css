@@ -124,6 +124,12 @@ a:active{
 	font-size:24px;
 }
 
+.nav-logo {
+  float: left;
+  height: 10%;
+  width: 25%;
+}
+
 /* ----- Button Style------*/
 .blete-button-solid{
 	font-family: 'Raleway', sans-serif;
@@ -237,9 +243,9 @@ a:active{
 }
 
 .header-img img {
-	height: 350px;
+	height: 100%;
 	width: 100%;
-	background-size: 100%;
+	/*background-size: 100%;*/
 }
 /* ----- Icon Style ----- */
 .blete-blurb-icon-only{

@@ -62,14 +62,8 @@
 
                 <!-- Navbar Toggle -->
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
                     <!-- Logo -->
-                    <a class="navbar-brand" href="index.html"><img class="logo" id="logo" src="images/logo.png" alt="logo"></a>
+                    <a class="nav-logo" href="index.html"><img src="images/logo.png" alt="logo"></a>
 
                 </div>
                 <!-- Navbar Toggle End -->
@@ -78,13 +72,28 @@
                 <div id="nav-menu" class="navbar-collapse collapse" role="navigation">
                     <ul class="nav navbar-nav blete-menu-wrapper">
                         <li>
-                            <a href="index.html">首页</a>
+                            <a href="index.html" class="nav-a">首页</a>
                         </li>
                         <li>
                             <a href="company.html">公司简介</a>
                         </li>
-                        <li class="active nav-a">
-                            <a href="product.html" class="nav-a">产品中心</a>
+                        <li class="dropdown active nav-a">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                产品中心
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="diaoju.html">吊具系列</a></li>
+                                <li><a href="diaozhuangdai.html">吊装带系列</a></li>
+                                <li><a href="gangsisheng.html">钢丝绳系列</a></li>
+                                <li><a href="jiaju.html">夹具系列</a></li>
+                                <li><a href="jiaqian.html">夹钳系列</a></li>
+                                <li><a href="qizhongqian.html">起重钳系列</a></li>
+                                <li><a href="suoju.html">索具系列</a></li>
+                                <li><a href="xiekou.html">卸扣系列</a></li>
+                                <li><a href="yataoji.html">压套机系列</a></li>
+                                <li><a href="other.html">其他系列</a></li>
+                            </ul>
                         </li>
                         <li>
                             <a href="contact.html">联系我们</a>
@@ -100,9 +109,69 @@
     <!-- Header End -->
 
 
-    <div class="header-img">
-        <img src="images/img-header/slider-img-1.jpg" alt="">
-    </div>
+    <!-- =============================
+                Main Slider
+    ================================== -->
+    <section class="slider-pro blete-slider" id="blete-slider">
+        <div class="sp-slides">
+
+            <!-- Slides -->
+            <div class="sp-slide blete-main-slides">
+                <div class="blete-img-overlay"></div>
+
+                <img class="sp-image" src="images/img-header/header-1.jpg" alt="Slider 1"/>
+
+                <h1 class="sp-layer blete-slider-text-big"
+                data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
+                顾客至上，改革求实，以人为本，团结进取
+                </h1>
+
+                <p class="sp-layer"
+                data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
+                    <span class="blete-highlight-text">河北德雄吊索具有限公司
+                </p>
+            </div>
+            <!-- Slides End -->
+
+            <!-- Slides -->
+            <div class="sp-slide blete-main-slides">
+            <div class="blete-img-overlay"></div>
+                <img class="sp-image" src="images/img-header/header-2.jpg" alt="Slider 2"/>
+
+                <h1 class="sp-layer blete-slider-text-big"
+                 data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1500" data-hide-delay="200">
+                   工业是发展的基础，安全是生命的保障
+                </h1>
+
+                <p class="sp-layer"
+                 data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
+                    <span class="blete-highlight-text">我们的责任
+                </p>
+            </div>
+            <!-- Slides End -->
+
+            <!-- Slides -->
+            <div class="sp-slide blete-main-slides">
+                <div class="blete-img-overlay"></div>
+
+                <img class="sp-image" src="images/img-header/header-3.jpg" alt="Slider 3"/>
+
+                <h1 class="sp-layer blete-slider-text-big"
+                data-position="center" data-show-transition="left" data-hide-transition="right" data-show-delay="1000" data-hide-delay="200">
+                可持续发展、基业常青
+                </h1>
+
+                <p class="sp-layer"
+                data-position="center" data-vertical="15%" data-show-delay="2000" data-hide-delay="200" data-show-transition="left" data-hide-transition="right">
+                   <span class="blete-highlight-text">我们的追求
+                </p>
+
+            </div>
+            <!-- Slides End -->
+
+        </div>
+    </section>
+    <!-- Main Slider End -->
 
 
     <section id="portfolio" class="blete-portfolio-section">
